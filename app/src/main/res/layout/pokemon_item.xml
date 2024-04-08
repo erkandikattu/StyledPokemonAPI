@@ -9,17 +9,21 @@
         android:id="@+id/pokemon_list"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:textSize = "20dp"
-        android:paddingStart = "280dp"
+        android:fontFamily="@font/maiden_orange"
+        android:paddingStart="280dp"
+        android:textAppearance="@style/TextAppearance.Pokemon"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/type_list"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:textSize = "20dp"
-        android:paddingStart = "5dp"
+        android:paddingStart="5dp"
+        android:textAppearance="@style/TextAppearance.Pokemon"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,8 +31,9 @@
         android:id="@+id/generation_list"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:textSize = "20dp"
+        android:textSize = "20sp"
         android:paddingStart = "140dp"
+        android:textAppearance="@style/TextAppearance.Pokemon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

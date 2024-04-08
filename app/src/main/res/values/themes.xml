@@ -1,9 +1,14 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.PokemonAPI" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+<!-- Base application theme. -->
+<style name="Base.Theme.PokemonAPI" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Customize your light theme here. -->
+    <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <item name="android:fontFamily">@font/maiden_orange</item>
+</style>
 
-    <style name="Theme.PokemonAPI" parent="Base.Theme.PokemonAPI" />
+<style name="Theme.PokemonAPI" parent="Base.Theme.PokemonAPI" />
+<style name = "TextAppearance.Pokemon" parent = "TextAppearance.MaterialComponents.Headline1">
+    <item name="android:textSize">20sp</item>
+    <item name="android:textColor">#c46210</item>
+</style>
 </resources>
